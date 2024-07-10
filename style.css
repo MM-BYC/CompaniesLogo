@@ -1,11 +1,11 @@
 .companyContainer {
   border: solid red;
   border-width: 0.2px;
-  text-align: center;
+  text-align: left;
   display:flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-}
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+ }
 .company {
   border-radius: 22px;
   font-size:22px;
@@ -16,8 +16,7 @@
   justify-content: space-evenly;
   background-color: black;
   color: white;
-  display: flex
-  ;
+  display: flex;
 }
 
 #com_a:hover {
@@ -35,6 +34,15 @@
   color: white;
   background-color: purple;
 }
+#com_e:hover {
+  color: white;
+  background-color: rgb(0, 255, 30);
+}
+#com_f:hover {
+  color: white;
+  background-color: yellow;
+}
+ 
 .bizPic {
   margin: 1em;
   border-radius: 50%;
